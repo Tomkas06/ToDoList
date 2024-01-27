@@ -1,0 +1,96 @@
+.actividad{
+    margin: 5px !important;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.prueba{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tareas{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#titulo{
+    text-align: center;
+    background-color: #66c2a4;
+    font-size: 60px;
+}
+
+.subtitulo{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.texto{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.boton-entrada{
+    margin: 5px;
+}
+
+.fila{
+    border: 2px dashed black;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: 500;
+}
+
+/********************************************************************************************************
+                                        Links externos
+********************************************************************************************************/
+
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+  }
+  
+.input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+}
+
+button {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
